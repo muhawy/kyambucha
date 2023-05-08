@@ -9,17 +9,17 @@ const Hero = ({
   listUser = [
     {
       name: "Users",
-      number: "390",
+      number: "10",
       icon: "/assets/Icon/heroicons_sm-user.svg",
     },
     {
       name: "Locations",
-      number: "20",
+      number: "1",
       icon: "/assets/Icon/gridicons_location.svg",
     },
     {
-      name: "Server",
-      number: "50",
+      name: "Jars",
+      number: "4",
       icon: "/assets/Icon/bx_bxs-server.svg",
     },
   ],
@@ -35,22 +35,27 @@ const Hero = ({
         >
           <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
             <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-              Want anything to be easy with <strong>Kyambucha</strong>.
+              Craving a refreshing and nutritious beverage? Try
+              <strong> Kyambucha</strong>!
             </h1>
             <p className="text-black-500 mt-4 mb-6">
-              Provide a network for all your needs with ease and fun using
-              Kyambucha discover interesting features from us.
+              Get more happy, get more healthy with our Kombucha delight.
             </p>
-            <ButtonPrimary>Get Started</ButtonPrimary>
+            <a
+              href="https://api.whatsapp.com/send/?phone=6281375437844&text&type=phone_number&app_absent=0"
+              target="_blank"
+            >
+              <ButtonPrimary>Order Now</ButtonPrimary>
+            </a>
           </div>
           <div className="flex w-full">
             <motion.div className="h-full w-full" variants={scrollAnimation}>
               <Image
-                src="/assets/Illustration1.png"
-                alt="VPN Illustrasi"
+                src="/assets/kyambucha-illustration.png"
+                alt="Kyambucha Illustrasi"
                 quality={100}
-                width={612}
-                height={383}
+                width={0}
+                height={0}
                 layout="responsive"
               />
             </motion.div>
