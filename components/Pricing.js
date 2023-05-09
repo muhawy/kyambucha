@@ -65,7 +65,7 @@ const Pricing = () => {
                   </li>
                   <li className="relative check custom-list my-2">250ml</li>
                   <li className="relative check custom-list my-2">
-                    suitable for everyone
+                    Suitable for everyone
                   </li>
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
@@ -107,7 +107,7 @@ const Pricing = () => {
                   </li>
                   <li className="relative check custom-list my-2">250ml</li>
                   <li className="relative check custom-list my-2">
-                    suitable for everyone
+                    Suitable for everyone
                   </li>
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
@@ -149,7 +149,7 @@ const Pricing = () => {
                   </li>
                   <li className="relative check custom-list my-2">250ml</li>
                   <li className="relative check custom-list my-2">
-                    suitable for everyone
+                    Suitable for everyone
                   </li>
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
@@ -162,7 +162,7 @@ const Pricing = () => {
             </ScrollAnimationWrapper>
           </div>
         </div>
-        <div className="flex flex-col w-full my-16">
+        {/* <div className="flex flex-col w-full my-16">
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
@@ -190,7 +190,6 @@ const Pricing = () => {
               className="w-full flex justify-evenly items-center mt-4 flex-wrap lg:flex-nowrap"
               variants={scrollAnimation}
             >
-              {/* <Netflix className="h-18 w-auto" /> */}
               <img
                 src="/assets/Icon/amazon.png"
                 className="h-14 w-auto mt-4 lg:mt-2"
@@ -218,14 +217,14 @@ const Pricing = () => {
               />
             </motion.div>
           </ScrollAnimationWrapper>
-        </div>
+        </div> */}
         <div className="flex flex-col w-full my-16" id="testimoni">
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto"
             >
-              Trusted by Thousands of Happy Customer{" "}
+              Trusted by Hundreds of Happy Customer{" "}
             </motion.h3>
             <motion.p
               variants={scrollAnimation}

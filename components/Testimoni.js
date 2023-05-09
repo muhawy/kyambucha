@@ -10,40 +10,40 @@ import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 const Testimoni = ({
   listTestimoni = [
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      name: "Son Goku",
+      image: "/assets/people-1.png",
+      city: "Siantar",
+      country: "Namek",
+      rating: "4.7",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Saya sudah mengonsumsi Kyambucha selama beberapa bulan dan merasa sangat terbantu dengan kesehatan pencernaan saya. Kombucha ini membantu meredakan perut kembung dan sembelit saya, dan rasanya pun sangat menyegarkan!",
     },
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      name: "Monkey D Luffy",
+      image: "/assets/people-2.png",
+      city: "Parapat",
+      country: "East Blue",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Saya selalu merasa sangat lelah dan lesu di tengah hari, tetapi setelah meminum Kyambucha, saya merasa lebih energik dan fokus. Kombucha ini memberikan tambahan energi alami yang sangat saya butuhkan",
     },
     {
-      name: "iezh Robert",
+      name: "Eren Yeager",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      city: "Sipiongot",
+      country: "Paradis Island",
+      rating: "4.3",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Saya suka minum Kyambucha karena rasanya sangat enak dan segar. Selain itu, kombucha ini juga membantu meningkatkan sistem kekebalan tubuh saya, sehingga saya jarang sakit dan lebih sehat secara keseluruhan.",
     },
     {
-      name: "iezh Robert",
+      name: "Naruto Uzumaki",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      city: "Binjai",
+      country: "Konoha",
+      rating: "4.6",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Kyambucha membantu mengurangi rasa lapar saya dan memperbaiki kualitas tidur saya. Saya merasa lebih kenyang dan tidur lebih nyenyak setelah minum kombucha ini. Rasanya pun enak dan menyegarkan, membuat saya ingin terus minum setiap hari.",
     },
   ],
 }) => {
